@@ -28,7 +28,7 @@
             </tr>
 
             <tr>
-                @if ($question->title)
+                @if ($question)
                     <td>{{ $question->title }}</td>
                 @endif
                 <td>
