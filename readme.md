@@ -38,6 +38,7 @@ https://yesno.wtf
 
 1. Регистрация  Php Storm
 2. Переустановка Smart Git
+
 /1час
 3. Репозиторий проекта на Git Hub
 4. Readme.md
