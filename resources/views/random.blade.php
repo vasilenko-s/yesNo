@@ -28,8 +28,9 @@
             </tr>
 
             <tr>
-                <td>{{ $question->title }}</td>
-
+                @if ($question->title)
+                    <td>{{ $question->title }}</td>
+                @endif
                 <td>
                     <div class="d-block my-3" style="margin-left: auto; margin-right: auto" >
                         <div class="custom-control custom-radio">
